@@ -12,12 +12,6 @@ represent a public API.
 
 Therefore it is not ready for production and use it at your own risk.
 
-## Demo
-
-You can trial the latest build at:
-
-http://subtitling.irt.de/imsced/
-
 ## Restrictions
 
 See below for some of the important restrictions.
@@ -96,7 +90,7 @@ See below for the current style attribute support:
 
 #### SCF Service
 
-The Subtitling Conversion Framework [(SCF)](https://github.com/IRT-Open-Source/scf) is used as a REST service to import SRT and EBU STL files. At the moment a public URL for this REST service is configured. See the [Service README](https://github.com/IRT-Open-Source/scf/blob/master/README-SCF-SERVICE.md) of the SCF project how to setup your own SCF service.
+The Subtitling Conversion Framework [(SCF)](https://github.com/IRT-Open-Source/scf) is used as a REST service to import SRT and EBU STL files. At the moment a public URL for this REST service is configured (NOTE: This service is not available anymore). See the [Service README](https://github.com/IRT-Open-Source/scf/blob/master/README-SCF-SERVICE.md) of the SCF project how to setup your own SCF service.
 
 #### Burnin-Service
 
@@ -163,19 +157,6 @@ Currently, only the following settings can be changed:
 
 To get the settings into effect the project need to be rebuild (i.e. the development server needs to be restarted).
 
-## Contributions
-
-If you want to ...
-
-- submit a feature request,
-- file a bug,
-- discuss implementation strategies
-
-... then we are looking forward to your comments on the project's issue tracker.
-
-Note that imscEd is in pre-alpha status and not stable. Therefore we do not expect
-any pull requests or code contribution yet.
-
 ## Build Setup
 
 ```bash
@@ -195,13 +176,11 @@ npm run build
 
 ## Authors
 
-Maintainer: Andreas Tai (IRT)
+Development: Michaela Finger, Yury Lungantsov, Andreas Tai
 
-Development: Michaela Finger (IRT), Yury Lungantsov (IRT), Andreas Tai (IRT)
+UI Concept: Laura Ehlis, Michaela Finger
 
-UI Concept: Laura Ehlis (IRT), Michaela Finger (IRT)
-
-Requirements: Laura Ehlis (IRT), Andreas Tai (IRT) and Rico Zimmermann (IRT)
+Requirements: Laura Ehlis, Andreas Tai and Rico Zimmermann
 
 ## Acknowledgement
 
